@@ -1,6 +1,14 @@
 .header {
   padding: 20px 0;
+  border: 1px solid #fbfbfb;
+  border-radius: 8px;
+  width: 1080px;
+  height: 48px;
 }
+.container .header-container{
+
+}
+
 .nav {
   display: flex;
   justify-content: space-between;
