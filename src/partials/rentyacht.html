@@ -1,0 +1,39 @@
+<section class="rent-yacht">
+    <div class="container rent-box">
+        <form class="rent-form">
+            <p class="rent-form-header">Rent a yacht now</p>
+            <div class="rent-form-element">
+                <label class="rent-form-label" for="user-name"></label>
+                <input type="text" name="user-name" id="user-name" class="rent-form-input" placeholder="Full Name" />
+            </div>
+            <div class="rent-form-element">
+                <label class="rent-form-label" for="user-email"></label>
+                <input type="email" name="user-email" id="user-email" class="rent-form-input" placeholder="Email" />
+            </div>
+            <div class="rent-form-element">
+                <label class="rent-form-label" for="user-tel"></label>
+                <input type="tel" name="user-tel" id="user-tel" class="rent-form-input" placeholder="Phone number"/>
+            </div>
+            <div class="rent-form-element rent-form-element-textarea">
+                <label class="rent-form-label" for="user-comment"></label>
+                <textarea name="user-comment" id="user-comment" class="rent-form-input rent-form-input-textarea" placeholder="Comment"></textarea>
+            </div>
+            <button type="submit" class="rent-button">Send</button>
+        </form>
+        <picture>
+            <source srcset="
+                ./img/desktop-1440/image 4.jpg 1x,
+                ./img/desktop-1440/image 4@2x.jpg 2x" media="(min-width: 1440px)" />
+            <source srcset="
+                ./img/desktop/rent-yacht-desktop.jpg 1x,
+                ./img/desktop/rent-yacht-desktop@2x.jpg 2x" media="(min-width: 1280px)" />
+            <source srcset="
+                ./img/tablet/rent-yacht-tablet.jpg 1x,
+                ./img/tablet/rent-yacht-tablet@2x.jpg 2x" media="(min-width: 768px)" />
+            <source srcset="
+                ./img/mobile/rent-yacht-mobile.jpg 1x,
+                ./img/mobile/rent-yacht-mobile@2x.jpg 2x" media="(max-width: 767px)" />
+            <img class="rent-picture" src="./img/mobile/rent-yacht-mobile.jpg" alt="Yacht at dusk" />
+        </picture>
+    </div>
+</section>

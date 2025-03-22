@@ -1,0 +1,142 @@
+/* general*/
+input,
+textarea {
+    outline: transparent;
+    border: transparent;
+    background-color: transparent;
+}
+
+textarea {
+    resize: none;
+}
+
+.rent-box {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding-top: 80px;
+}
+/*picture*/
+.rent-picture {
+    border-radius: 24px;
+    width: 100%;
+}
+/*form*/
+.rent-form {
+    width: 100%;
+    gap: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+.rent-form-header {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    width: 222px;
+    height: 28px;
+    text-align: left;
+    margin-bottom: 22px;
+}
+
+.rent-form-element {
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 12px;
+    padding: 14px 18px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.rent-form-element:hover,
+.rent-form-element:focus-within{
+    border-color: rgba(251, 251, 251, 0.5);
+}
+
+.rent-form-element-textarea {
+    height: 80px;
+}
+
+.rent-form-input-textarea {
+    height: 100%;
+}
+
+.rent-form-input {
+    width: 100%;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    color: #fbfbfb;
+}
+
+.rent-form-input::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    color: rgba(251, 251, 251, 0.4);
+}
+
+.rent-button {
+    border-radius: 15px;
+    padding: 14px 44px;
+    width: 122px;
+    height: 46px;
+    background-color: #1b414b;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    display: block;
+    border: none;
+    margin-top: 22px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.rent-button:hover,
+.rent-button:focus {
+    background-color: #fbfbfb;
+    color: #1b414b;
+}
+
+/*media*/
+
+@media screen and (min-width: 768px) {
+    .rent-form-header {
+        font-size: 48px;
+        color: #fbfbfb;
+        width: 381px;
+        margin-bottom: 32px;
+    }
+    .rent-box {
+        gap: 100px;
+        padding-top: 150px;
+    }
+    .rent-button {
+        margin-top: 32px;
+        width: 194px;
+        height: 56px;
+        line-height: 1.1;
+        font-size: 18px;
+    }
+    .rent-form {
+        width: 472px;
+        margin: 0 auto;
+    }
+    .rent-form-element-textarea {
+        height: 88px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .rent-box {
+        gap: 50px;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+    }
+    .rent-form {
+        margin: 0;
+    }
+}
