@@ -108,7 +108,6 @@
       max-width: 1001px;
     }
   }
-  
   @media screen and (min-width: 1158px) and (min-resolution: 2x) {
     .hero-section {
       background-image: url(../src/img/desktop/hero-desktop@2.jpg);
