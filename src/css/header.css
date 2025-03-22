@@ -1,10 +1,17 @@
 .header{
-  margin: 20px 0 198px 0;
-  font-family: "Inter", sans-seri;
+  position: relative;
+ 
 }
 .header-nav {
   border: 1px solid black;
   border-radius: 8px;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translate(-50%,0);
+  background-color: #fbfbfb;
+  width: 100%;
+  max-width: 330px;
 }
 .header-nav nav {
   display: flex;
@@ -28,10 +35,26 @@
 .btn-menu{
   width: 28px;
   height: 28px;
+      padding: 0;
+      border: none;
+      background-color: transparent;
+  
 }
+.menu-icon {
+  display: block;
+  fill: #1B414B;
+
+}
+@media only screen and (max-width:360px){
+  .header-nav{
+    max-width: 300px;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .header-nav {
       padding: 4px 8px;
+      max-width:704px;
     }
     .nav-logo {
       font-size: 20px;

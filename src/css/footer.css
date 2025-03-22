@@ -10,6 +10,7 @@ footer .container{
     background: #1b414b;
     border-radius: 24px 24px 0 0;
     margin: 0 10px;
+    margin-top: 80px;
 }
 
 .footer-logo {
@@ -17,7 +18,6 @@ footer .container{
     font-size: 14px;
     letter-spacing: -0.03em;
     color: #fbfbfb;
-    margin-right: 37px;
 }
 
 .footer-main {
@@ -102,13 +102,24 @@ footer .container{
   padding: 0 24px;
   gap: 20px;
   font-weight: 400;
-    font-size: 12px;
+    font-size: 10px;
   
 
     line-height: 117%;
     letter-spacing: 0.03em;
     text-align: center;
     color: rgba(251, 251, 251, 0.4);
+}
+
+@media only screen and (min-width: 375px) {
+
+  .footer-logo {
+    margin-right: 37px;
+  }
+
+  .footer-info {
+    font-size: 12px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -119,6 +130,7 @@ footer .container{
 .footer {
   padding-right: 40px;
   padding-left: 40px;
+  margin-top: 150px;
 }
   
 .footer-main {
