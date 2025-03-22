@@ -1,9 +1,8 @@
 /* Styles for Mobile devices */
 .container {
-  min-width: 320px;
+  min-width: 260px;
   max-width: 375px;
   margin: 0 auto;
-  padding: 0 20px;
   padding: 0 20px;
 }
 /* Styles for Tablet devices */
