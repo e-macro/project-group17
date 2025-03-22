@@ -112,6 +112,7 @@ footer .container{
 }
 
 @media only screen and (min-width: 375px) {
+
   .footer-logo {
     margin-right: 37px;
   }
@@ -129,6 +130,7 @@ footer .container{
 .footer {
   padding-right: 40px;
   padding-left: 40px;
+  margin-top: 150px;
 }
   
 .footer-main {
