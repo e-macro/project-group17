@@ -42,7 +42,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: transparent; 
-  &:after,
+  /* &:after,
   &:before{
     content: "";
     width: 24px;
@@ -52,7 +52,7 @@
     display: block;
     stroke-width: 2.50px;
     fill: #1b414b;
-  }
+  } */
     
 }
 
