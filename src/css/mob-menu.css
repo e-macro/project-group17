@@ -2,6 +2,8 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    height: 100%;
+    justify-content: space-between;
     background-color: #0e1823;
     align-items: center;
     z-index: 999;
@@ -23,21 +25,32 @@
     visibility: visible;
 }
 
+@media screen and (min-width: 768px) {
+    .mobile-menu {
+        opacity: 0;
+        pointer-events: none;
+        visibility: hidden;
+    }
+}
+
 .menu-header-box {
     border: 1px solid #fbfbfb;
+    position: relative;
     display: flex;
     border-radius: 8px;
     margin: 16px 20px;
-    padding: 7px 20px;
     align-items: center;
-    min-width: 240px;
-    max-width: 295px;
-    justify-content: space-between;
-    max-height: 42px;
+    width: 100%;
+    min-width: 280px;
+    max-width: 335px;
+    height: 42px;
     background-color: #fbfbfb;
 }
 
 .monile-menu-logo {
+    position: absolute;
+    top: 12px;
+    left: 20px;
     font-weight: 500;
     font-size: 14px;
     letter-spacing: -0.03em;
@@ -55,8 +68,14 @@
     justify-content: center;
 }
 
+.cross-icon-box {
+    position: absolute;
+    top: 7px;
+    right: 20px;
+}
+
 .mobile-navlist-menu {
-    margin: 180px auto 0 auto;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     gap: 4px;
@@ -84,9 +103,9 @@
 }
 
 .mobile-icon-box {
-    margin-top: 360px;
     display: flex;
     gap: 8px;
+    margin-bottom: 40px;
 }
 
 .mobile-icon-box .icon {
