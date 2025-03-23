@@ -12,7 +12,7 @@
       rel="stylesheet"
     />
     <script type="module" crossorigin src="/project-group17/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/project-group17/assets/index-BWrLRC3R.css">
+    <link rel="stylesheet" crossorigin href="/project-group17/assets/index-hMGTQZiz.css">
   </head>
   <body>
     
@@ -188,26 +188,28 @@
       
       <section class="rent-yacht">
     <div class="container rent-box">
-        <form class="rent-form">
-            <p class="rent-form-header">Rent a yacht now</p>
-            <div class="rent-form-element">
-                <label class="rent-form-label" for="user-name"></label>
-                <input type="text" name="user-name" id="user-name" class="rent-form-input" placeholder="Full Name" />
-            </div>
-            <div class="rent-form-element">
-                <label class="rent-form-label" for="user-email"></label>
-                <input type="email" name="user-email" id="user-email" class="rent-form-input" placeholder="Email" />
-            </div>
-            <div class="rent-form-element">
-                <label class="rent-form-label" for="user-tel"></label>
-                <input type="tel" name="user-tel" id="user-tel" class="rent-form-input" placeholder="Phone number"/>
-            </div>
-            <div class="rent-form-element rent-form-element-textarea">
-                <label class="rent-form-label" for="user-comment"></label>
-                <textarea name="user-comment" id="user-comment" class="rent-form-input rent-form-input-textarea" placeholder="Comment"></textarea>
-            </div>
-            <button type="submit" class="rent-button">Send</button>
-        </form>
+        <div class="crutch">
+            <h2 class="rent-form-header">Rent a yacht now</h2>
+            <form class="rent-form">
+                <div class="rent-form-element">
+                    <label class="rent-form-label" for="user-name"></label>
+                    <input type="text" name="user-name" pattern="\w{3,16}" id="user-name" class="rent-form-input" placeholder="Full Name" />
+                </div>
+                <div class="rent-form-element">
+                    <label class="rent-form-label" for="user-email"></label>
+                    <input type="email" name="user-email" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" id="user-email" class="rent-form-input" placeholder="Email" />
+                </div>
+                <div class="rent-form-element">
+                    <label class="rent-form-label" for="user-tel"></label>
+                    <input type="tel" name="user-tel" pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$" id="user-tel" class="rent-form-input" placeholder="Phone number"/>
+                </div>
+                <div class="rent-form-element rent-form-element-textarea">
+                    <label class="rent-form-label" for="user-comment"></label>
+                    <textarea name="user-comment" id="user-comment" class="rent-form-input rent-form-input-textarea" placeholder="Comment"></textarea>
+                </div>
+                <button type="submit" class="rent-button">Send</button>
+            </form>
+        </div>
         <picture>
             <source srcset="/project-group17/assets/rent-yacht-desktop1440-Bi5WkKK0.jpg 1x, /project-group17/assets/rent-yacht-desktop1440@2x-B0Fp7eSK.jpg 2x" media="(min-width: 1440px)" />
             <source srcset="/project-group17/assets/rent-yacht-desktop-Dw4KvmNe.jpg 1x, /project-group17/assets/rent-yacht-desktop@2x-BiBiQfxS.jpg 2x" media="(min-width: 1280px)" />
