@@ -1,0 +1,165 @@
+ul,
+ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul li:last-child,
+ol li:last-child {
+  margin-bottom: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0px, 0px, 0px, 0px);
+  overflow: hidden;
+}
+
+.advantages {
+  padding-top: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+  .advantages {
+    padding-top: 110px;
+  }
+}
+
+.advantages-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .advantages-container {
+    gap: 32px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .advantages-container {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+}
+
+.advantages-list {
+  width: 100%;
+  counter-reset: item;
+  border-radius: 24px;
+  background: #1b414b;
+  padding: 80px 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+@media only screen and (min-width: 768px) {
+  .advantages-list {
+    padding: 90px 32px;
+    gap: 32px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .advantages-list {
+    min-width: 60%;
+  }
+}
+
+.advantages-item {
+  counter-increment: item;
+}
+
+@media only screen and (min-width: 768px) {
+  .advantages-item {
+    width: calc((100% - 32px) / 2);
+    margin-bottom: 44px;
+  }
+  .advantages-item:nth-last-child(1),
+  .advantages-item:nth-last-child(2) {
+    margin-bottom: 0;
+  }
+}
+
+.advantages-number {
+  display: block;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  color: #fbfbfb;
+  margin-bottom: 18px;
+}
+
+.advantages-number::before {
+  content: counter(item, decimal-leading-zero);
+}
+
+@media only screen and (min-width: 768px) {
+  .advantages-number {
+    font-size: 32px;
+  }
+}
+
+.advantages-text {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  opacity: 0.8;
+  position: relative;
+  padding-top: 18px;
+}
+
+@media only screen and (min-width: 768px) {
+  .advantages-text {
+    font-size: 13px;
+    line-height: 1.15;
+  }
+}
+
+.advantages-text::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 18px;
+  width: 100%;
+  height: 2px;
+  background: rgba(251, 251, 251, 0.1);
+}
+
+.advantages-img {
+  width: 100%;
+  border-radius: 24px;
+}
