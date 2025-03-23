@@ -1,0 +1,155 @@
+  p,
+  h2,
+  h3 {
+    margin: 0;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .about-us {
+    width: 100%;
+  }
+
+  @media only screen and (min-width: 768px) {
+    .about-us {
+        padding-bottom: 70px;
+    }
+  }
+
+  .about-us-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -20px;
+}
+
+  .about-wrap {
+    padding: 40px 20px 60px;
+    background-color: #FBFBFB;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+  }
+
+  @media only screen and (min-width: 768px) {
+    .about-wrap {
+        padding: 50px 32px 70px;
+    }
+  }
+  
+  @media only screen and (min-width: 1280px) {
+    .about-wrap {
+        padding: 50px 50px 120px 50px;
+
+      display: flex;
+    }
+  }
+
+  .about-us-title {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #1b414b;
+    max-width: 295px;
+
+    margin-bottom: 40px;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .about-us-title {
+      font-size: 48px;
+      max-width: 536px;
+
+      margin-bottom: 50px;
+    }
+  }
+  
+  @media only screen and (min-width: 1280px) {
+    .about-us-title {
+      max-width: 537px;
+
+      margin-right: 189px;
+      margin-bottom: 0;
+    }
+  }
+
+  @media only screen and (min-width: 1440px) {
+    .about-us-title {
+      max-width: 537px;
+
+      margin-right: 299px;
+    }
+  }
+
+  .about-desc-wrap {
+    max-width: 295px;
+  }
+
+  @media only screen and (min-width: 768px) {
+    .about-desc-wrap {
+        max-width: 389px;
+    }
+  }
+  
+  @media only screen and (min-width: 1280px) {
+    .about-desc-wrap {
+        max-width: 354px;
+    }
+  }
+
+  @media only screen and (min-width: 1440px) {
+    .about-desc-wrap {
+        max-width: 404px;
+    }
+  }
+
+  .about-us-text {
+    font-size: 18px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #1b414b;
+
+    margin-bottom: 20px;
+  }
+
+  @media only screen and (min-width: 768px) {
+    .about-us-text {
+        font-size: 23px;
+    }
+  }
+
+  .about-us-desc {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1,17;
+    letter-spacing: -0.02em;
+    color: #040306;
+    opacity: 0.4;
+  }
+
+  @media only screen and (min-width: 768px) {
+    .about-us-desc {
+        font-size: 13px;
+    line-height: 1,15;
+    }
+  }
+
+/* Саме зображення */
+.about-us-photo {
+    width: 100%;
+    max-height: 395px;
+    display: block;
+    border-radius: 24px;
+    
+}
+
+.about-img-wrapper {
+    width: 100%;
+    margin: -20px auto 0 auto;
+    position: relative;
+    z-index: 2; 
+}
