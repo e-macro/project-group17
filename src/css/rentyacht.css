@@ -38,7 +38,7 @@ textarea {
     width: 222px;
     height: 28px;
     text-align: left;
-    margin-bottom: 22px;
+    margin-bottom: 40px;
 }
 
 .rent-form-element {
@@ -106,9 +106,10 @@ textarea {
 @media screen and (min-width: 768px) {
     .rent-form-header {
         font-size: 48px;
+        height: 48px;
         color: #fbfbfb;
         width: 381px;
-        margin-bottom: 32px;
+        margin-bottom: 50px;
     }
     .rent-box {
         gap: 100px;
@@ -121,7 +122,8 @@ textarea {
         line-height: 1.1;
         font-size: 18px;
     }
-    .rent-form {
+    .rent-form,
+    .crutch {
         width: 472px;
         margin: 0 auto;
     }
