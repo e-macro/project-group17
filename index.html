@@ -12,7 +12,7 @@
       rel="stylesheet"
     />
     <script type="module" crossorigin src="/project-group17/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/project-group17/assets/index-Cl98tdi8.css">
+    <link rel="stylesheet" crossorigin href="/project-group17/assets/index-C6w9RDON.css">
   </head>
   <body>
     <header class="header">
@@ -68,9 +68,20 @@
             </a>
           </li>
         </ul>
-        <button class="btn-menu">
-          <svg class="menu-icon" width="28" height="28">
-            <use href="/project-group17/assets/sprite-CCYlzY66.svg#icon-menu" class="menu-icon"></use>
+        <button type="button" class="btn-menu" data-menu-open>
+          <!-- <svg class="menu-icon" width="28" height="28">
+            <use href="img/sprite.svg#icon-menu"></use>
+          </svg> -->
+          <svg
+            class="menu-icon"
+            width="28"
+            height="28"
+            viewBox="0 0 32 32"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M4 10.571c-0.789 0-1.429 0.64-1.429 1.429v0c0 0.789 0.64 1.429 1.429 1.429v0h24c0.789 0 1.429-0.64 1.429-1.429v0c0-0.789-0.64-1.429-1.429-1.429v0zM4 18.571c-0.789 0-1.429 0.64-1.429 1.429v0c0 0.789 0.64 1.429 1.429 1.429v0h24c0.789 0 1.429-0.64 1.429-1.429v0c0-0.789-0.64-1.429-1.429-1.429v0z"
+            />
           </svg>
         </button>
       </nav>
@@ -426,10 +437,10 @@
 </footer>
 
 
-    <div class="mobile-menu is-open">
+    <div class="mobile-menu" data-menu>
   <div class="menu-header-box">
     <a href="./index.html" class="monile-menu-logo">yachtjet</a>
-    <button type="button" class="cross-icon-box">
+    <button type="button" class="cross-icon-box" data-menu-close>
       <svg class="icon" width="28" height="28">
         <use href="/project-group17/assets/sprite-CCYlzY66.svg#icon-close"></use>
       </svg>
