@@ -24,7 +24,19 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: -20px;
+    margin-top: -59px;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-us-container {
+    margin-top: -67px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .about-us-container {
+    margin-top: -35px;
+  }
 }
 
   .about-wrap {
