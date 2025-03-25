@@ -24,6 +24,8 @@ footer .container{
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
+  row-gap: 80px;
+  margin: 0 10px;
 }
 
 .footer-nav {
@@ -80,7 +82,7 @@ footer .container{
 
 .footer-text {
   display: flex;
-  margin-top: 96px;
+  margin-top: 40px;
   font-weight: 400;
     font-size: 18px;
   
@@ -136,6 +138,7 @@ footer .container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    row-gap: 0;
 }
 
 .footer-social {
@@ -146,6 +149,7 @@ footer .container{
   font-size: 32px;
   max-width: 640px;
   margin-bottom: 99px;
+  margin-top: 96px;
 }
 
 }
