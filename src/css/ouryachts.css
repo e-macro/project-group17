@@ -4,7 +4,7 @@
   margin: 0;
 }
 
-p,
+/* p,
 h2,
 h3 {
   margin: 0;
@@ -18,7 +18,7 @@ img {
 
 ul li:last-child {
   margin-bottom: 0;
-}
+} */
 
 .ouryachts {
   width: 100%;
