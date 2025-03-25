@@ -27,9 +27,7 @@
 
 @media screen and (min-width: 768px) {
     .mobile-menu {
-        opacity: 0;
-        pointer-events: none;
-        visibility: hidden;
+        display: none;
     }
 }
 
