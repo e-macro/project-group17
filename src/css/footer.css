@@ -25,7 +25,6 @@ footer .container{
   justify-content: space-between;
   align-items: flex-start;
   row-gap: 80px;
-  margin: 0 10px;
 }
 
 .footer-nav {
@@ -126,6 +125,10 @@ footer .container{
 
   .footer-info {
     font-size: 12px;
+  }
+
+  .footer-main {
+    margin: 0 10px;
   }
 }
 
