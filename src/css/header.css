@@ -105,6 +105,10 @@
     color: #fbfbfb;
     background-color: #1b414b;    
   }
+
+    .nav-link:active {
+      transform: scale(0.95);
+    }
   .nav-link{
     display: flex;
     justify-content: center;
@@ -120,6 +124,7 @@
   .header-social-link:hover .header-soc-icon,
   .header-social-link:focus .header-soc-icon {
       fill: #062730;
+      transform: scale(1.1);
   }
   
    

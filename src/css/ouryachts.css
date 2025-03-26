@@ -228,14 +228,18 @@ ul li:last-child {
   padding: 14px 32px;
   width: 141px;
   height: 46px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms ease-in,
+    color 250ms ease-in;
 }
 
 .ouryachts-btn:hover,
 .ouryachts-btn:focus {
   background-color: #fbfbfb;
   color: #1b414b;
+}
+
+.ouryachts-btn:active {
+  transform: scale(0.95);
 }
 
 @media only screen and (min-width: 768px) {
