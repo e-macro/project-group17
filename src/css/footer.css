@@ -75,7 +75,7 @@ footer .container{
 
 .footer-social .footer-icon {
   fill: #fbfbfb;
-  transition: fill 250ms ease-in;
+  transition: fill 250ms ease-in, transform 250ms ease-in;
 }
 
 .footer-social-link:hover .footer-icon,
