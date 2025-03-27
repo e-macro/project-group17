@@ -135,11 +135,5 @@
   max-width: 1080px;
   margin: 0 auto;
 }
-.navigation-list a{
-  cursor:url("../img/cursor.png"), pointer;
-}
-.navigation-list .header-nav {
-  cursor:url("../img/cursor.png"), pointer;
-}
 
 }
