@@ -215,6 +215,7 @@ ul li:last-child {
 }
 
 .ouryachts-btn {
+  text-align: center;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
@@ -226,7 +227,8 @@ ul li:last-child {
   border: 1px solid rgba(251, 251, 251, 0.35);
   border-radius: 15px;
   padding: 14px 32px;
-  width: 141px;
+  /* width: 141px; */
+  min-width: auto;
   height: 46px;
   transition: background-color 250ms ease-in,
     color 250ms ease-in;
